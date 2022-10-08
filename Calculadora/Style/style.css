@@ -1,0 +1,89 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+  font-family: 'Silkscreen', cursive;
+  color: #fff;
+}
+
+body{
+  margin: 0;
+  background: rgb(2,0,36);
+background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Sombra y color de la calculadora */
+.calculadora{
+  display: grid;
+  grid-template-columns: repeat(4,75px);
+  grid-template-rows: 160px repeat(5,75px);
+  background-color: #AA0000;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+/* button de la calculadora */
+button{
+  cursor: pointer;
+  margin: 5px;
+  padding: 0;
+  border-radius: 30px;
+  font-size: 1.5em;
+  border: none;
+  background-color: #b13e43;
+  box-shadow: 5px 5px 10px -3px #660000, -5px -5px 15px 3px #0455048c;
+}
+
+button:active{
+  background-color:#660000;
+}
+
+button:focus{
+  outline: none;
+}
+
+.col-2{
+  grid-column: span 2;
+}
+
+.display{
+  grid-column: 1/-1;
+  padding: 16px;
+  display: flex;
+  margin: 10px 10px 20px;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #363636;
+  border-radius: 30px;
+  text-align: right;
+  justify-content: space-between;
+  word-break: break-all;
+  box-shadow: 0px 0px 0px 10px #660000;
+}
+
+#valor_actual{
+  font-size: 1.5em;
+}
+
+#valor_anterior{
+  font-size: 2em;
+}
