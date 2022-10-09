@@ -76,7 +76,7 @@ La estructura de los archivos es la siguiente:
 
 ## 📷 Galería
 
-![LOGO](./CALCULATOR/img/README-GIF.gif "Gif de la Calculadora")
+![LOGO](./Calculadora/img/README-GIF.gif "Gif de la Calculadora")
 
 ## 🌟 Crédito/Reconocimiento
 
