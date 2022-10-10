@@ -78,6 +78,6 @@ La estructura de los archivos es la siguiente:
 
 ![LOGO](./Calculadora/img/README-GIF.gif "Gif de la Calculadora")
 
-## 🌟 Crédito/Reconocimiento
+## 🌟 Crédito/Reconocimiento 
 
 Desarrollado por Juan Francisco Cabrera Rodríguez
